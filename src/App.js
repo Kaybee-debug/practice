@@ -22,9 +22,7 @@ export default function App() {
   Link
 </Button>
 </div>
-<Button href="#text-buttons" color="primary">
-  Link
-</Button>
+
 
 
 
