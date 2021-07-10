@@ -8,6 +8,7 @@ import Value from '@material-ui/core/Value';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import HomeIcon from '@material-ui/icons/HomeIcon';
+import TextField from '@material-ui/core/TextField';
 
 export default function App() {
   return (
@@ -55,9 +56,17 @@ export default function App() {
 
         <Grid item xs={6}>
           experience1111
-         {/* <div>
-          <HomeIcon/>
-         </div>*/}
+          <Box bgcolor="orange" width={20} height={20} />
+          <TextField
+          variant="outlined"
+          color="orange"
+          type="time"
+          />
+
+          
+          {/*<div>
+          HomeIcon/>
+         </div>*?}
         </Grid>
 
         <Grid item xs={6} container>
