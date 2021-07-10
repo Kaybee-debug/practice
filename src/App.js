@@ -54,15 +54,54 @@ export default function App() {
           </Grid>
         </Grid>
 
-        <Grid item xs={6}  justifyContent="center"
+        <Grid item xs={6} container justifyContent="center"
   alignItems="center" >
           experience1111
           <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
           CONTACT ME
          </Box>
-          
+         <Grid item xs={6}>
+            ga molepo 1
+            <Topography>Icon</Topography>
+          </Grid>
+          <Grid item xs={6}>
+            ga molepo 2
+            <Topography>
+              <p>ADDRES</p>
+              <p>5668 Rachaka Street Section q</p>
+              <p>Mamelodi west ,Pretoria</p>
+              
+              
 
-          
+            </Topography>
+          </Grid>
+          <Grid item xs={6}>
+            ga molepo 3
+            <Topography>
+              email
+             
+            </Topography>
+          </Grid>
+          <Grid item xs={6}>
+            ga molepo 4
+            <Topography>
+              WEB
+              karabomolepo29@gmail.com
+              </Topography>
+          </Grid>
+          <Grid item xs={6}>
+            ga molepo5
+            <Topography>cell number</Topography>
+          </Grid>
+          <Grid item xs={6}>
+            ga molepo 6
+            <Topography>
+              PHONE
+              0682072272
+              0636788998
+              13852401653
+            </Topography>
+          </Grid>
           {/*<div>
           HomeIcon/>
           </div>*/}
