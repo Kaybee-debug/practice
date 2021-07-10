@@ -54,19 +54,18 @@ export default function App() {
           </Grid>
         </Grid>
 
-        <Grid item xs={6}>
+        <Grid item xs={6}  justifyContent="center"
+  alignItems="center" >
           experience1111
-          <Box bgcolor="orange" width={20} height={20} />
-          <TextField
-          variant="outlined"
-          color="orange"
-          type="time"
-          />
+          <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
+          CONTACT ME
+         </Box>
+          
 
           
           {/*<div>
           HomeIcon/>
-         </div>*?}
+          </div>*/}
         </Grid>
 
         <Grid item xs={6} container>
@@ -142,6 +141,9 @@ export default function App() {
 
         <Grid item xs={6}>
           experience3
+          <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
+          SKILLS
+         </Box>
           {/*<Typography id="non-linear-slider" gutterBottom>
   Temperature range
 </Typography>
