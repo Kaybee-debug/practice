@@ -33,7 +33,10 @@ export default function App() {
           <div>
           <Box  bgcolor="orange" width={20} height={20}>
           </Box>
-          <Topography>MAKGOKA HIGH SCHOOL</Topography>
+          <Topography>
+            2010-2014
+            MAKGOKA HIGH SCHOOL
+            </Topography>
           </div>
           
           {/*<div> <Rating name="size-small" defaultValue={2} size="small" />
@@ -42,33 +45,125 @@ export default function App() {
            </Grid>
            < Grid item xs={6}>
             hello 1.1
+            <Topography>
+            NATION SENIOR CERTIFICATE
+            </Topography>
            </Grid>
            < Grid item xs={6}>
             hello 2
             <div>
           <Box  bgcolor="orange" width={20} height={20}>
           </Box>
-          <Topography>EKURHULENI WEST COLLGE SCHOOL</Topography>
+          <Topography>
+            2015-2018
+            EKURHULENI WEST COLLGE
+            </Topography>
           </div>
 
            </Grid>
            < Grid item xs={6}>
             hello 2.1
+            <Topography>
+            NATIONAL CERTIFICATE (VOCATION IN INFORMATION TECHNOLOGY AND COMPUTER SCIENCE
+            </Topography>
            </Grid>
         </Grid>
 
         <Grid item xs={6} >
         experience1111
+       
         
         </Grid>
 
-        <Grid item xs={6}>
+        <Grid item xs={6} container>
         <Container width="xs" style={{backgroundColor:"orange"}}>
           <h2>EXPERINCE</h2>
             </Container>
-        
-          
-        experience
+            < Grid item xs={6}>
+          experinceR
+          <div>
+          <Box  bgcolor="orange" width={20} height={20}>
+          </Box>
+          <Topography>
+            SEP 2018-MAR 2019
+            DETAIL CHECKER
+            </Topography>
+          </div>
+          </Grid>
+          < Grid item xs={6}>
+            hello 1.1
+            <Topography>
+            BHEKA MANAGEMENT SEW4RVICE
+            </Topography>
+           </Grid>
+           < Grid item xs={6}>
+          experinceRR
+          <div>
+          <Box  bgcolor="orange" width={20} height={20}>
+          </Box>
+          <Topography>
+            SEP 2018-MAR 2019
+            DETAIL CHECKER
+            </Topography>
+          </div>
+          </Grid>
+          < Grid item xs={6}>
+            hello 1.111111
+            <Topography>
+            BHEKA MANAGEMENT SEW4RVICE
+            </Topography>
+           </Grid>
+           < Grid item xs={6}>
+          experince MG
+          <div>
+          <Box  bgcolor="orange" width={20} height={20}>
+          </Box>
+          <Topography>
+            SEP 2018-MAR 2019
+            DETAIL CHECKER
+            </Topography>
+          </div>
+          </Grid>
+          < Grid item xs={6}>
+            hello FF
+            <Topography>
+            BHEKA MANAGEMENT SEW4RVICE
+            </Topography>
+           </Grid>
+           < Grid item xs={6}>
+          experinceSS
+          <div>
+          <Box  bgcolor="orange" width={20} height={20}>
+          </Box>
+          <Topography>
+            SEP 2018-MAR 2019
+            DETAIL CHECKER
+            </Topography>
+          </div>
+          </Grid>
+          < Grid item xs={6}>
+            hello SS
+            <Topography>
+            BHEKA MANAGEMENT SEW4RVICE
+            </Topography>
+           </Grid>
+           < Grid item xs={6}>
+          experinceEMS
+          <div>
+          <Box  bgcolor="orange" width={20} height={20}>
+          </Box>
+          <Topography>
+            SEP 2018-MAR 2019
+            DETAIL CHECKER
+            </Topography>
+          </div>
+          </Grid>
+          < Grid item xs={6}>
+            hello EMS
+            <Topography>
+            BHEKA MANAGEMENT SEW4RVICE
+            </Topography>
+           </Grid>
         </Grid>
 
         <Grid item xs={6}>
