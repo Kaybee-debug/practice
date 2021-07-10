@@ -93,7 +93,7 @@ export default function App() {
           < Grid item xs={6}>
             hello 1.1
             <Topography>
-            BHEKA MANAGEMENT SEW4RVICE
+            BHEKA MANAGEMENT SERVICE
             </Topography>
            </Grid>
            < Grid item xs={6}>
@@ -102,15 +102,15 @@ export default function App() {
           <Box  bgcolor="orange" width={20} height={20}>
           </Box>
           <Topography>
-            SEP 2018-MAR 2019
-            DETAIL CHECKER
+            2019-2020
+            INTERN
             </Topography>
           </div>
           </Grid>
           < Grid item xs={6}>
             hello 1.111111
             <Topography>
-            BHEKA MANAGEMENT SEW4RVICE
+            YANGZHOU POLYTECNIC COLLEGE
             </Topography>
            </Grid>
            < Grid item xs={6}>
@@ -119,15 +119,15 @@ export default function App() {
           <Box  bgcolor="orange" width={20} height={20}>
           </Box>
           <Topography>
-            SEP 2018-MAR 2019
-            DETAIL CHECKER
+            JUN 2020-JULY 2020
+            JAVA BACK-END DEVELOPMENT AND MAINTANACE
             </Topography>
           </div>
           </Grid>
           < Grid item xs={6}>
             hello FF
             <Topography>
-            BHEKA MANAGEMENT SEW4RVICE
+            YANGZHOU GUAMAI COMMUNICATION AND DEVELOPMENT
             </Topography>
            </Grid>
            < Grid item xs={6}>
@@ -136,15 +136,16 @@ export default function App() {
           <Box  bgcolor="orange" width={20} height={20}>
           </Box>
           <Topography>
-            SEP 2018-MAR 2019
-            DETAIL CHECKER
+          AUG 2020-SEP 2020
+            WEB FRONT-END PRODUCTION MAINTANANCE
+            
             </Topography>
           </div>
           </Grid>
           < Grid item xs={6}>
             hello SS
             <Topography>
-            BHEKA MANAGEMENT SEW4RVICE
+           YANGZHOU INNOVATIVE ENTERPRISES MANAGEMENT
             </Topography>
            </Grid>
            < Grid item xs={6}>
@@ -153,15 +154,15 @@ export default function App() {
           <Box  bgcolor="orange" width={20} height={20}>
           </Box>
           <Topography>
-            SEP 2018-MAR 2019
-            DETAIL CHECKER
+          AUG 2020-SEP 2020
+          ONLINE MARKETING AND INTERNATIONAL COMMERCE
             </Topography>
           </div>
           </Grid>
           < Grid item xs={6}>
             hello EMS
             <Topography>
-            BHEKA MANAGEMENT SEW4RVICE
+            NENOBLE GROUP
             </Topography>
            </Grid>
         </Grid>
