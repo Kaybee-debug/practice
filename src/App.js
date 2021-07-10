@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
+import Topography from '@material-ui/core/Typography';
 import Slider from '@material-ui/core/Slider';
 import Value from '@material-ui/core/Value';
 import Box from  '@material-ui/core/Box';
@@ -33,7 +33,9 @@ export default function App() {
           <div>
           <Box  bgcolor="orange" width={20} height={20}>
           </Box>
+          <Topography>MAKGOKA HIGH SCHOOL</Topography>
           </div>
+          
           {/*<div> <Rating name="size-small" defaultValue={2} size="small" />
 <Rating name="size-medium" defaultValue={2} />
   <Rating name="size-large" defaultValue={2} size="large" /></div>*/}
@@ -46,15 +48,18 @@ export default function App() {
             <div>
           <Box  bgcolor="orange" width={20} height={20}>
           </Box>
+          <Topography>EKURHULENI WEST COLLGE SCHOOL</Topography>
           </div>
+
            </Grid>
            < Grid item xs={6}>
             hello 2.1
            </Grid>
         </Grid>
 
-        <Grid item xs={6}>
-        experience
+        <Grid item xs={6} >
+        experience1111
+        
         </Grid>
 
         <Grid item xs={6}>
