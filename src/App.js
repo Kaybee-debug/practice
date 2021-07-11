@@ -184,6 +184,7 @@ export default function App() {
           <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
           SKILLS
          </Box>
+         
          {/* <Typography id="non-linear-slider" gutterBottom>
   Temperature range
 </Typography>
