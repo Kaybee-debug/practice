@@ -7,6 +7,7 @@ import Box from '@material-ui/core/Box';
 import LocationOn from "@material-ui/icons/LocationOn";
 import Phone from "@material-ui/icons/Phone";
 import Email  from "@material-ui/icons/Email";
+import Rating from "@material-ui/core/Rating";
 
 
 
@@ -179,7 +180,8 @@ export default function App() {
           <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
           SKILLS
          </Box>
-        
+       
+
        
 
         </Grid>
