@@ -3,12 +3,12 @@ import './style.css';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
-import Slider from '@material-ui/core/Slider';
-import value from '@material-ui/icons/value';
 import Box from '@material-ui/core/Box';
-import Button from '@material-ui/core/Button';
-import HomeIcon from '@material-ui/icons/HomeIcon';
-import TextField from '@material-ui/core/TextField';
+import LocationOn from "@material-ui/icons/LocationOn";
+import Phone from "@material-ui/icons/Phone";
+import Email  from "@material-ui/icons/Email";
+
+
 
 export default function App() {
   return (
@@ -62,8 +62,8 @@ export default function App() {
           CONTACT ME
          </Box>
          <Grid item xs={6}>
-            ga molepo 1
-            <Typography>Icon</Typography>
+         <LocationOn style={{color:"orange"}}/ >
+
           </Grid>
           <Grid item xs={6}>
             ga molepo 2
@@ -77,22 +77,19 @@ export default function App() {
             </Typography>
           </Grid>
           <Grid item xs={6}>
-            ga molepo 3
-            <Typography>
-              email
-             
-            </Typography>
+          <Email style={{color:"orange"}}/ >
+            
           </Grid>
           <Grid item xs={6}>
-            ga molepo 4
+          
             <Typography>
-              WEB
+              EMAIL
               karabomolepo29@gmail.com
               </Typography>
           </Grid>
           <Grid item xs={6}>
-            ga molepo5
-            <Typography>cell number</Typography>
+          <Phone style={{color:"orange"}}/ >
+           
           </Grid>
           <Grid item xs={6}>
             ga molepo 6
@@ -103,9 +100,7 @@ export default function App() {
               13852401653
             </Typography>
           </Grid>
-          {/*<div>
-          HomeIcon/>
-          </div>*/}
+          
         </Grid>
 
         <Grid item xs={8} container>
@@ -184,22 +179,9 @@ export default function App() {
           <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
           SKILLS
          </Box>
-         
-         {/* <Typography id="non-linear-slider" gutterBottom>
-  Temperature range
-</Typography>
-<Slider
-  value={value}
-  min={0}
-  step={0.1}
-  max={6}
-  scale={(x) => x ** 10}
-  getAriaValueText={valueLabelFormat}
-  valueLabelFormat={valueLabelFormat}
-  onChange={handleChange}
-  valueLabelDisplay="auto"
-  aria-labelledby="non-linear-slider"
-        />*/}
+        
+       
+
         </Grid>
       </Grid>
     </div>
