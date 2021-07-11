@@ -13,14 +13,14 @@ import TextField from '@material-ui/core/TextField';
 export default function App() {
   return (
     <div>
-      <Grid container spacing={2}>
+      <Grid container spacing={3}>
         <Grid item xs={12}>
           <Container width="xs" style={{ backgroundColor: 'orange' }}>
             <h1>KARABO MALEHU MOLEPO</h1>
           </Container>
         </Grid>
 
-        <Grid item xs={6} container>
+        <Grid item xs={8} container>
           <Container width="xs" style={{ backgroundColor: 'orange' }}>
             <h2>EDUCATION</h2>
           </Container>
@@ -54,7 +54,7 @@ export default function App() {
           </Grid>
         </Grid>
 
-        <Grid item xs={6} container   justifyContent="center"
+        <Grid item xs={4} container   justifyContent="center"
   alignItems="center"
  >
           experience1111
@@ -108,7 +108,7 @@ export default function App() {
           </div>*/}
         </Grid>
 
-        <Grid item xs={6} container>
+        <Grid item xs={8} container>
           <Container width="xs" style={{ backgroundColor: 'orange' }}>
             <h2>EXPERINCE</h2>
           </Container>
@@ -179,7 +179,7 @@ export default function App() {
           </Grid>
         </Grid>
 
-        <Grid item xs={6}>
+        <Grid item xs={4}>
           experience3
           <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
           SKILLS
