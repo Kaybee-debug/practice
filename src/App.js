@@ -3,11 +3,13 @@ import './style.css';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
+import List from '@material-ui/core/List';
+import ListItemText from '@material-ui/core/ListItemText';
 import Box from '@material-ui/core/Box';
 import LocationOn from "@material-ui/icons/LocationOn";
 import Phone from "@material-ui/icons/Phone";
 import Email  from "@material-ui/icons/Email";
-import Rating from "@material-ui/core/Rating";
+
 
 
 
@@ -23,7 +25,8 @@ export default function App() {
 
         <Grid item xs={8} container>
           <Container width="xs" style={{ backgroundColor: 'orange' }}>
-            <h2>EDUCATION</h2>
+           <h2> EDUCATION</h2>
+            
           </Container>
           <Grid item xs={6}>
             hell1
@@ -58,6 +61,13 @@ export default function App() {
         <Grid item xs={4} container   justifyContent="center"
   alignItems="center"
  >
+   <Grid item={12}>
+     <h2>PROFILE</h2>
+     <Typography>
+       A self-motivated,creative ,ambitious and hardworking individual as well as having a strong ability to communuicate and work in a team effectively seek to apply for the position of intern front-end developer to enhance my technical skills to contribute to the company growth.
+     </Typography>
+
+   </Grid>
           experience1111
           <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
           CONTACT ME
@@ -69,9 +79,11 @@ export default function App() {
           <Grid item xs={6}>
             ga molepo 2
             <Typography>
-              ADDRES
-              5668 Rachaka Street Section Q
-              Mamelodi west ,Pretoria
+              ADDRESS
+              11841 Middle Street 
+              Mamelodi
+              Pretoria
+              0122
               
               
 
@@ -96,8 +108,7 @@ export default function App() {
             ga molepo 6
             <Typography>
               PHONE
-              0682072272
-              0636788998
+              0682072272/  0636788998
               13852401653
             </Typography>
           </Grid>
@@ -180,7 +191,35 @@ export default function App() {
           <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
           SKILLS
          </Box>
-       
+       <list >
+         <ListItemText >
+           HTML5
+         </ListItemText>
+         <ListItemText>
+           CSS
+         </ListItemText>
+         <ListItemText>
+           JAVASCRIPT
+         </ListItemText>
+         <ListItemText>
+           JAVA
+         </ListItemText>
+         <ListItemText>
+           MYSQL DATABASE
+         </ListItemText>
+         <ListItemText>
+           PHYTHON
+         </ListItemText>
+         <ListItemText>
+           VISUAL BASIC.NET(VB.NET)
+         </ListItemText>
+         <ListItemText>
+           ADOBE PHOTOSHOP
+         </ListItemText>
+         <ListItemText>
+           NETWOKING
+         </ListItemText>
+       </list>
 
        
 
