@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItem from '@material-ui/core/ListItem';
-
+import Avatar from '@material-ui/core/Avatar';
 import Box from '@material-ui/core/Box';
 import LocationOn from "@material-ui/icons/LocationOn";
 import Phone from "@material-ui/icons/Phone";
@@ -39,6 +39,12 @@ export default function App() {
           <Container width="xs" style={{ backgroundColor: 'orange' }}>
             <h1>KARABO MALEHU MOLEPO</h1>
             <p>front-end developer</p>
+            <div style={{paddingTop:'20px',
+          margin:"10px",
+          width:"60px",
+          height:"60px"}}>
+            <Avatar alt="src" src="https://www.facebook.com/photo.php?fbid=1136973793451071&set=pb.100014153838877.-2207520000..&type=3"/>
+            </div>
           </Container>
         </Grid>
 
