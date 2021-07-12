@@ -5,6 +5,8 @@ import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import ListItemText from '@material-ui/core/ListItemText';
+import ListItem from '@material-ui/core/ListItem';
+
 import Box from '@material-ui/core/Box';
 import LocationOn from "@material-ui/icons/LocationOn";
 import Phone from "@material-ui/icons/Phone";
@@ -48,10 +50,16 @@ export default function App() {
           <Grid item xs={6}>
             
             <div>
+              <List>
+                <ListItem>
               <Box bgcolor="orange" width={20} height={20} />
-              <Typography>
-               <p> 2010-2014</p>
-               <p>MAKGOKA HIGH SCHOOL</p></Typography>
+           
+              <ListItemText>
+                2010-2014<br/>
+               MAKGOKA HIGH SCHOOL
+               </ListItemText>
+               </ListItem>
+               </List>
             </div>
             {/*<div> <Rating name="size-small" defaultValue={2} size="small" />
 <Rating name="size-medium" defaultValue={2} />
@@ -64,15 +72,19 @@ export default function App() {
           <Grid item xs={6}>
             
             <div>
+              <List>
+                <ListItem>
               <Box bgcolor="orange" width={20} height={20} />
-              <Typography>2015-2018 EKURHULENI WEST COLLGE </Typography>
+              <ListItemText>2015-2018<br/> EKURHULENI WEST TVET COLLGE </ListItemText>
+              </ListItem>
+              </List>
             </div>
           </Grid>
           <Grid item xs={6}>
             
             <Typography>
               NATIONAL CERTIFICATE (VOCATION IN INFORMATION TECHNOLOGY AND
-              COMPUTER SCIENCE
+              COMPUTER SCIENCE NQF LEVEL 4
             </Typography>
           </Grid>
         </Grid>
@@ -157,9 +169,13 @@ export default function App() {
           <Grid item xs={6}>
             
             <div>
-              <Box bgcolor="orange" width={20} height={20} >
-              <Typography>SEP 2018-MAR 2019 DETAIL CHECKER</Typography>
-              </Box>
+              <List>
+                <ListItem>
+              <Box bgcolor="orange" width={20} height={20} />
+              <ListItemText>SEP 2018-MAR 2019 <br/>DETAIL CHECKER
+              </ListItemText>
+              </ListItem>
+              </List>
             </div>
           </Grid>
           <Grid item xs={6}>
@@ -169,8 +185,14 @@ export default function App() {
           <Grid item xs={6}>
             
             <div>
+              <List>
+                <ListItem>
               <Box bgcolor="orange" width={20} height={20} />
-              <Typography>2019-2020 COMPUTER SCIENCE INTERN</Typography>
+              <ListItemText>
+                2019-2020<br/>
+               COMPUTER SCIENCE INTERN</ListItemText>
+              </ListItem>
+              </List>
             </div>
           </Grid>
           <Grid item xs={6}>
@@ -180,11 +202,16 @@ export default function App() {
           <Grid item xs={6}>
             
             <div>
+              <List>
+                <ListItem>
               <Box bgcolor="orange" width={20} height={20} />
-              <Typography>
-                JUN 2020-JULY 2020 JAVA BACK-END DEVELOPMENT AND MAINTANACE
+              <ListItemText>
+                JUN 2020-JULY 2020 <br/>
+                JAVA BACK-END DEVELOPMENT AND MAINTANACE
                 INTERN
-              </Typography>
+              </ListItemText>
+              </ListItem>
+              </List>
             </div>
           </Grid>
           <Grid item xs={6}>
@@ -196,10 +223,15 @@ export default function App() {
           <Grid item xs={6}>
             
             <div>
+              <List>
+                <ListItem>
               <Box bgcolor="orange" width={20} height={20} />
-              <Typography>
-                AUG 2020-SEP 2020 WEB FRONT-END PRODUCTION MAINTANANCE INTERN
-              </Typography>
+              <ListItemText>
+                AUG 2020-SEP 2020 <br/>
+                WEB FRONT-END PRODUCTION MAINTANANCE INTERN
+              </ListItemText>
+              </ListItem>
+              </List>
             </div>
           </Grid>
           <Grid item xs={6}>
@@ -209,11 +241,16 @@ export default function App() {
           <Grid item xs={6}>
             
             <div>
+              <List>
+                <ListItem>
               <Box bgcolor="orange" width={20} height={20} />
-              <Typography>
-                AUG 2020-SEP 2020 ONLINE MARKETING AND INTERNATIONAL COMMERCE
+              <ListItemText>
+                AUG 2020-SEP 2020<br/>
+                 ONLINE MARKETING AND INTERNATIONAL COMMERCE
                 INTERN
-              </Typography>
+              </ListItemText>
+              </ListItem>
+              </List>
             </div>
           </Grid>
           <Grid item xs={6}>
