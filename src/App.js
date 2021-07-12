@@ -15,7 +15,9 @@ from '@material-ui/core/styles';
 const useStyles=makeStyles({
   root:{
     backgroundColor:'black',
-    color:'white'
+    color:'white',
+  
+    
     
   }
   
@@ -43,7 +45,7 @@ export default function App() {
             
           </Container>
           <Grid item xs={6}>
-            hell1
+            
             <div>
               <Box bgcolor="orange" width={20} height={20} />
               <Typography>2010-2014 MAKGOKA HIGH SCHOOL</Typography>
@@ -53,18 +55,18 @@ export default function App() {
   <Rating name="size-large" defaultValue={2} size="large" /></div>*/}
           </Grid>
           <Grid item xs={6}>
-            hello 1.1
+            
             <Typography>NATION SENIOR CERTIFICATE</Typography>
           </Grid>
           <Grid item xs={6}>
-            hello 2
+            
             <div>
               <Box bgcolor="orange" width={20} height={20} />
               <Typography>2015-2018 EKURHULENI WEST COLLGE </Typography>
             </div>
           </Grid>
           <Grid item xs={6}>
-            hello 2.1
+            
             <Typography>
               NATIONAL CERTIFICATE (VOCATION IN INFORMATION TECHNOLOGY AND
               COMPUTER SCIENCE
@@ -76,14 +78,14 @@ export default function App() {
   alignItems="center" className={classes.root}
  >
    <Grid item={12} >
-     <GridStyled/>
-     <h2>PROFILE</h2>
+     
+     <h2 alignItems>PROFILE</h2>
      <Typography>
        A self-motivated,creative ,ambitious and hardworking individual as well as having a strong ability to communuicate and work in a team effectively seek to apply for the position of intern front-end developer to enhance my technical skills to contribute to the company growth.
      </Typography>
 
    </Grid>
-          experience1111
+          
           <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
           CONTACT ME
          </Box>
@@ -92,7 +94,7 @@ export default function App() {
 
           </Grid>
           <Grid item xs={6}>
-            ga molepo 2
+            
             <Typography>
               ADDRESS
               11841 Middle Street 
@@ -120,7 +122,7 @@ export default function App() {
            
           </Grid>
           <Grid item xs={6}>
-            ga molepo 6
+          
             <Typography>
               PHONE
               0682072272/  0636788998
@@ -135,7 +137,7 @@ export default function App() {
             <h2>EXPERINCE</h2>
           </Container>
           <Grid item xs={6}>
-            experinceR
+            
             <div>
               <Box bgcolor="orange" width={20} height={20} />
               <Typography>SEP 2018-MAR 2019 DETAIL CHECKER</Typography>
@@ -146,18 +148,18 @@ export default function App() {
             <Typography>BHEKA MANAGEMENT SERVICE</Typography>
           </Grid>
           <Grid item xs={6}>
-            experinceRR
+            
             <div>
               <Box bgcolor="orange" width={20} height={20} />
               <Typography>2019-2020 COMPUTER SCIENCE INTERN</Typography>
             </div>
           </Grid>
           <Grid item xs={6}>
-            hello 1.111111
+          
             <Typography>YANGZHOU POLYTECNIC COLLEGE</Typography>
           </Grid>
           <Grid item xs={6}>
-            experince MG
+            
             <div>
               <Box bgcolor="orange" width={20} height={20} />
               <Typography>
@@ -167,13 +169,13 @@ export default function App() {
             </div>
           </Grid>
           <Grid item xs={6}>
-            hello FF
+            
             <Typography>
               YANGZHOU GUAMAI COMMUNICATION AND DEVELOPMENT
             </Typography>
           </Grid>
           <Grid item xs={6}>
-            experinceSS
+            
             <div>
               <Box bgcolor="orange" width={20} height={20} />
               <Typography>
@@ -182,11 +184,11 @@ export default function App() {
             </div>
           </Grid>
           <Grid item xs={6}>
-            hello SS
+            
             <Typography>YANGZHOU INNOVATIVE ENTERPRISES MANAGEMENT</Typography>
           </Grid>
           <Grid item xs={6}>
-            experinceEMS
+            
             <div>
               <Box bgcolor="orange" width={20} height={20} />
               <Typography>
@@ -196,13 +198,13 @@ export default function App() {
             </div>
           </Grid>
           <Grid item xs={6}>
-            hello EMS
+            
             <Typography>NENOBLE GROUP</Typography>
           </Grid>
         </Grid>
 
         <Grid item xs={4} className={classes.root}>
-          experience3
+          
           <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
           SKILLS
          </Box>
@@ -243,10 +245,8 @@ export default function App() {
 
           
           <Grid item xs={12} >
-            pp
+            
           <Box bgcolor="orange" width={1} height={20} />
-
-
          
 
           
