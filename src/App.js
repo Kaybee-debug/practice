@@ -9,14 +9,28 @@ import Box from '@material-ui/core/Box';
 import LocationOn from "@material-ui/icons/LocationOn";
 import Phone from "@material-ui/icons/Phone";
 import Email  from "@material-ui/icons/Email";
+import {makeStyles}
+from '@material-ui/core/styles';
 
+const useStyles=makeStyles({
+  root:{
+    backgroundColor:'black',
+    color:'white'
+    
+  }
+  
+})
 
-
+function GridStyled(){
+  const classes=useStyles()
+  return <Grid className={classes.root}></Grid>
+}
 
 export default function App() {
+  const classes=useStyles()
   return (
     <div>
-      <Grid container spacing={3}>
+      <Grid container spacing={4}>
         <Grid item xs={12}>
           <Container width="xs" style={{ backgroundColor: 'orange' }}>
             <h1>KARABO MALEHU MOLEPO</h1>
@@ -59,9 +73,10 @@ export default function App() {
         </Grid>
 
         <Grid item xs={4} container   justifyContent="center"
-  alignItems="center"
+  alignItems="center" className={classes.root}
  >
-   <Grid item={12}>
+   <Grid item={12} >
+     <GridStyled/>
      <h2>PROFILE</h2>
      <Typography>
        A self-motivated,creative ,ambitious and hardworking individual as well as having a strong ability to communuicate and work in a team effectively seek to apply for the position of intern front-end developer to enhance my technical skills to contribute to the company growth.
@@ -186,7 +201,7 @@ export default function App() {
           </Grid>
         </Grid>
 
-        <Grid item xs={4}>
+        <Grid item xs={4} className={classes.root}>
           experience3
           <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
           SKILLS
@@ -224,6 +239,19 @@ export default function App() {
        
 
         </Grid>
+        
+
+          
+          <Grid item xs={12} >
+            pp
+          <Box bgcolor="orange" width={1} height={20} />
+
+
+         
+
+          
+          </Grid>
+         
       </Grid>
     </div>
   );
