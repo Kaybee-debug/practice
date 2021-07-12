@@ -35,16 +35,14 @@ export default function App() {
   return (
     <div>
       <Grid container spacing={4}>
+
         <Grid item xs={12}>
-          <Container width="xs" style={{ backgroundColor: 'orange' }}>
+          <Container width="xs" style={{ backgroundColor: 'orange', alignItems:'left' ,justifyContent:'center'}}>
             <h1>KARABO MALEHU MOLEPO</h1>
             <p>front-end developer</p>
-            <div style={{paddingTop:'20px',
-          margin:"10px",
-          width:"60px",
-          height:"60px"}}>
-            <Avatar alt="src" src="https://www.facebook.com/photo.php?fbid=1136973793451071&set=pb.100014153838877.-2207520000..&type=3"/>
-            </div>
+            
+            <Avatar  alt ="kaybee" style={{height:300, width:260 ,margin:10}}src="https://scontent.fpry1-1.fna.fbcdn.net/v/t39.30808-6/210610593_1136973800117737_3255232654783952712_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeF7wyf629T7fVgwKmR7tjUABIJvmlnjCdIEgm-aWeMJ0gNj2tFr3EZ_Dg6JLkzrnIWo8LKLBOX__WOAMF1Ya2Oc&_nc_ohc=qwPD5LVmFDcAX8OfHjv&_nc_pt=5&_nc_ht=scontent.fpry1-1.fna&oh=6e0b1a284217db651ceccc69157fd1f5&oe=60F0E853"/>
+            
           </Container>
         </Grid>
 
