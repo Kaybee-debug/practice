@@ -40,8 +40,9 @@ export default function App() {
         <Container width="xs" style={{ backgroundColor: 'orange', alignItems:'center' ,justifyContent:'center' ,display:'flex'}}>
         <Avatar  alt ="kaybee" style={{height:300, width:300 ,margin:10}}src="https://scontent.fpry1-1.fna.fbcdn.net/v/t39.30808-6/210610593_1136973800117737_3255232654783952712_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeF7wyf629T7fVgwKmR7tjUABIJvmlnjCdIEgm-aWeMJ0gNj2tFr3EZ_Dg6JLkzrnIWo8LKLBOX__WOAMF1Ya2Oc&_nc_ohc=qwPD5LVmFDcAX8OfHjv&_nc_pt=5&_nc_ht=scontent.fpry1-1.fna&oh=6e0b1a284217db651ceccc69157fd1f5&oe=60F0E853"  >
             </Avatar>
-            <h1>MOLEPO KARABO MALEHU</h1>
-            
+            <h1>MOLEPO KARABO MALEHU<br/>
+            Front-End Developer
+            </h1>
             </Container>
           </Grid>
           
@@ -57,7 +58,6 @@ export default function App() {
         <Grid item xs={8} container>
           <Container width="xs" style={{ backgroundColor: 'orange' }}>
            <h2> EDUCATION</h2>
-            
           </Container>
           <Grid item xs={6}>
             
