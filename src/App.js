@@ -35,22 +35,24 @@ export default function App() {
   return (
     <div>
       <Grid container spacing={4} >
-<Grid  container justify="space-between">
-<Grid item xs={2} style={{backgroundColor: 'orange'}}>
-        <Avatar  alt ="kaybee" style={{height:120, width:160 }}
+<Grid  container    justify="space-between">
+<Container style={{ backgroundColor: 'orange', alignItems:'center' ,justifyContent:'center' ,display:'flex'}} >
+<Grid item xs={5}  width='xs'>
+
+        <Avatar  alt ="kaybee" style={{height:300, width:300}}
         src="https://scontent.fpry1-1.fna.fbcdn.net/v/t39.30808-6/210610593_1136973800117737_3255232654783952712_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeF7wyf629T7fVgwKmR7tjUABIJvmlnjCdIEgm-aWeMJ0gNj2tFr3EZ_Dg6JLkzrnIWo8LKLBOX__WOAMF1Ya2Oc&_nc_ohc=qwPD5LVmFDcAX8OfHjv&_nc_pt=5&_nc_ht=scontent.fpry1-1.fna&oh=6e0b1a284217db651ceccc69157fd1f5&oe=60F0E853"  >
             </Avatar>
-           
+          
           </Grid>
-        <Grid  item xs={10
-        } justifyContent="flex-start" style={{textAlign:"center"}} >
-        <Container width="xs" style={{ backgroundColor: 'orange', alignItems:'center' ,justifyContent:'center' ,display:'flex'}}>
+        <Grid  item xs={7
+        } justifyContent="flex-start" style={{textAlign:"center"}} width='xs' >
+       
         <h1>MOLEPO KARABO MALEHU<br/>
             Front-End Developer
             </h1>
-            </Container>
+          
             </Grid>
-           
+            </Container>
           </Grid>
           
        {/*} <Grid item xs={6}>
