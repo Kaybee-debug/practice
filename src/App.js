@@ -37,7 +37,7 @@ export default function App() {
   return (
     <Container>
       <Grid container spacing={1} >
-<Grid  container    justify="space-between">
+<Grid  container    >
 <Container style={{ backgroundColor: 'orange', alignItems:'center' ,justifyContent:'center' ,display:'flex'}} >
 <Grid item xs={5}  width='xs'>
 
@@ -46,8 +46,7 @@ export default function App() {
             </Avatar>
           
           </Grid>
-        <Grid  item xs={7
-        } justifyContent="flex-start" style={{textAlign:"center"}} width='xs' >
+        <Grid  item xs={7} justifyContent="flex-start" style={{textAlign:"center"}} width='xs' >
        
         <h1>MOLEPO KARABO MALEHU<br/>
             Front-End Developer
