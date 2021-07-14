@@ -39,7 +39,7 @@ export default function App() {
 <Container style={{ backgroundColor: 'orange', alignItems:'center' ,justifyContent:'center' ,display:'flex'}} >
 <Grid item xs={5}  width='xs'>
 
-        <Avatar  alt ="kaybee" style={{height:300, width:300}}
+        <Avatar  alt ="kaybee"   style={{height:300, width:300}}
         src="https://scontent.fpry1-1.fna.fbcdn.net/v/t39.30808-6/210610593_1136973800117737_3255232654783952712_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeF7wyf629T7fVgwKmR7tjUABIJvmlnjCdIEgm-aWeMJ0gNj2tFr3EZ_Dg6JLkzrnIWo8LKLBOX__WOAMF1Ya2Oc&_nc_ohc=qwPD5LVmFDcAX8OfHjv&_nc_pt=5&_nc_ht=scontent.fpry1-1.fna&oh=6e0b1a284217db651ceccc69157fd1f5&oe=60F0E853"  >
             </Avatar>
           
@@ -64,11 +64,11 @@ export default function App() {
           </Container>
   </Grid>*/}
 
-        <Grid item xs={8} container>
+        <Grid container item xs={8}direction="row" >
           <Container width="xs" style={{ backgroundColor: 'orange' }}>
            <h2> EDUCATION</h2>
           </Container>
-          <Grid item xs={6}>
+          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}} >
             
             <div>
               <List>
@@ -86,11 +86,11 @@ export default function App() {
 <Rating name="size-medium" defaultValue={2} />
   <Rating name="size-large" defaultValue={2} size="large" /></div>*/}
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
-            <Typography>NATION SENIOR CERTIFICATE</Typography>
+            <Typography>NATIONAL SENIOR CERTIFICATE</Typography>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <div>
               <List>
@@ -101,7 +101,7 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <Typography>
               NATIONAL CERTIFICATE (VOCATION IN INFORMATION TECHNOLOGY AND
@@ -183,11 +183,11 @@ export default function App() {
           
         </Grid>
 
-        <Grid item xs={8} container>
+        <Grid container item xs={8} direction="row" >
           <Container width="xs" style={{ backgroundColor: 'orange' }}>
             <h2>EXPERINCE</h2>
           </Container>
-          <Grid item xs={6}>
+          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
             
             <div>
               <List>
@@ -199,11 +199,11 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <Typography>BHEKA MANAGEMENT SERVICE</Typography>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
             
             <div>
               <List>
@@ -216,11 +216,11 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
           
             <Typography>YANGZHOU POLYTECNIC COLLEGE</Typography>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
             
             <div>
               <List>
@@ -235,13 +235,13 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <Typography>
               YANGZHOU GUAMAI COMMUNICATION AND DEVELOPMENT
             </Typography>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
             
             <div>
               <List>
@@ -255,11 +255,11 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <Typography>YANGZHOU INNOVATIVE ENTERPRISES MANAGEMENT</Typography>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
             
             <div>
               <List>
@@ -274,7 +274,7 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <Typography>NENOBLE GROUP</Typography>
           </Grid>
