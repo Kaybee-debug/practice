@@ -14,6 +14,8 @@ import Email  from "@material-ui/icons/Email";
 import {makeStyles}
 from '@material-ui/core/styles';
 
+
+
 const useStyles=makeStyles({
   root:{
     backgroundColor:'black',
@@ -33,8 +35,8 @@ function GridStyled(){
 export default function App() {
   const classes=useStyles()
   return (
-    <div>
-      <Grid container spacing={1} >
+    <Container>
+      <Grid container spacing={3} >
 <Grid  container    justify="space-between">
 <Container style={{ backgroundColor: 'orange', alignItems:'center' ,justifyContent:'center' ,display:'flex'}} >
 <Grid item xs={5}  width='xs'>
@@ -64,11 +66,13 @@ export default function App() {
           </Container>
   </Grid>*/}
 
-        <Grid container item xs={8}direction="row" >
+        <Grid  item xs={8}direction="row" >
           <Container width="xs" style={{ backgroundColor: 'orange' }}>
            <h2> EDUCATION</h2>
           </Container>
-          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}} >
+          </Grid>
+          <Grid item xs={4}  className={classes.root} style={{textAlign:"center"}}> </Grid>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}} >
             
             <div>
               <List>
@@ -86,11 +90,20 @@ export default function App() {
 <Rating name="size-medium" defaultValue={2} />
   <Rating name="size-large" defaultValue={2} size="large" /></div>*/}
           </Grid>
-          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <Typography>NATIONAL SENIOR CERTIFICATE</Typography>
           </Grid>
-          <Grid item xs={6}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+
+          <Grid item xs={4} className={classes.root} style={{textAlign:"center"}}> 
+          <h2 >PROFILE</h2>
+     <Typography>
+       A self-motivated,creative ,ambitious and hardworking individual as well as having a strong ability to communuicate and work in a team effectively seek to apply for the position of intern front-end developer to enhance my technical skills to contribute to the company growth.
+     </Typography>
+          
+          </Grid>
+
+          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <div>
               <List>
@@ -101,93 +114,37 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <Typography>
               NATIONAL CERTIFICATE (VOCATION IN INFORMATION TECHNOLOGY AND
               COMPUTER SCIENCE NQF LEVEL 4
             </Typography>
-          </Grid>
-        </Grid>
-
-        <Grid item xs={4} container   justifyContent="center"
-  alignItems="center" className={classes.root} style={{textAlign:"center"}}
- >
-   <Grid item={12} >
-     
-     <h2 alignItems>PROFILE</h2>
-     <Typography>
-       A self-motivated,creative ,ambitious and hardworking individual as well as having a strong ability to communuicate and work in a team effectively seek to apply for the position of intern front-end developer to enhance my technical skills to contribute to the company growth.
-     </Typography>
-
-   </Grid>
           
-          <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
+        </Grid>
+        
+
+        <Grid item xs={4} className={classes.root} style={{textAlign:"center"}} > 
+        <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
           CONTACT ME
          </Box>
-         <Grid item xs={12}>
-         <LocationOn style={{color:"orange"}}/ ><lebel>  ADDRESS
+        </Grid>
+        <Grid  item xs={8} direction="row" >
+          <Container width="xs" style={{ backgroundColor: 'orange' }}>
+            <h2>EXPERINCE</h2>
+          </Container>
+          </Grid>
+          
+
+        <Grid item xs={4} className={classes.root} style={{textAlign:"center"}}>
+        <LocationOn style={{color:"orange"}}/ ><lebel>  ADDRESS
              <p >11841 Middle Street 
               Mamelodi East
               Pretoria</p>
               0122</lebel>
+           </Grid>
 
-          </Grid>
-      {/*<Grid item xs={6}>
-            
-            <Typography>
-              ADDRESS
-              11841 Middle Street 
-              Mamelodi
-              Pretoria
-              0122
-              
-              
-
-            </Typography>
-              </Grid>*/}
-          <Grid item xs={12}>
-          <Email style={{color:"orange"}}/ >
-            <lebel>
-            
-              EMAIL
-             <p> karabomolepo29@gmail.com</p>
-              
-            </lebel>
-                        </Grid>
-         {/* <Grid item xs={6}>
-          
-            <Typography>
-              EMAIL
-              karabomolepo29@gmail.com
-              </Typography>
-            </Grid>*/}
-          <Grid item xs={12}>
-          <Phone style={{color:"orange"}}/ >
-       <lebel>
-       
-              PHONE
-             <p> 0682072272</p> <p>0636788998</p>
-              <p>13852401653</p>
-            
-        </lebel>
-          </Grid>
-          {/*<Grid item xs={6}>
-          
-            <Typography>
-              PHONE
-              0682072272/  0636788998
-              13852401653
-            </Typography>
-          </Grid>*/}
-          
-        </Grid>
-
-        <Grid container item xs={8} direction="row" >
-          <Container width="xs" style={{ backgroundColor: 'orange' }}>
-            <h2>EXPERINCE</h2>
-          </Container>
-          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
+        <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
             
             <div>
               <List>
@@ -199,11 +156,22 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={6}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <Typography>BHEKA MANAGEMENT SERVICE</Typography>
           </Grid>
-          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
+
+          <Grid item xs={4} className={classes.root} style={{textAlign:"center"}} >
+          <Email style={{color:"orange"}}/ >
+            <lebel>
+            
+              EMAIL
+             <p> karabomolepo29@gmail.com</p>
+              
+            </lebel>
+             </Grid>
+
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
             
             <div>
               <List>
@@ -216,11 +184,23 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={6}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
           
             <Typography>YANGZHOU POLYTECNIC COLLEGE</Typography>
           </Grid>
-          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
+
+          <Grid item xs={4} className={classes.root} style={{textAlign:"center"}} >
+          <Phone style={{color:"orange"}}/ >
+       <lebel>
+       
+              PHONE
+             <p> 0682072272</p> <p>0636788998</p>
+              <p>13852401653</p>
+            
+        </lebel>
+             </Grid>
+
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
             
             <div>
               <List>
@@ -235,13 +215,15 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={6}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <Typography>
               YANGZHOU GUAMAI COMMUNICATION AND DEVELOPMENT
             </Typography>
           </Grid>
-          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
+
+          <Grid item xs={4} className={classes.root} style={{textAlign:"center"}}> </Grid>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
             
             <div>
               <List>
@@ -255,11 +237,17 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={6}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <Typography>YANGZHOU INNOVATIVE ENTERPRISES MANAGEMENT</Typography>
           </Grid>
-          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
+          <Grid item xs={4} className={classes.root} style={{textAlign:"center"}}> 
+          <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
+          SKILLS
+         </Box>
+          </Grid>
+
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
             
             <div>
               <List>
@@ -274,17 +262,16 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={6} direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
             
             <Typography>NENOBLE GROUP</Typography>
           </Grid>
-        </Grid>
 
-        <Grid item xs={4} className={classes.root} style={{textAlign:"center"}}>
           
-          <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
-          SKILLS
-         </Box>
+
+<Grid item xs={4} className={classes.root} style={{textAlign:"center"}}>
+          
+         
        <list >
          <ListItemText >
            HTML5
@@ -331,21 +318,76 @@ export default function App() {
          </ListItemText>
        </list>
 
-       
+    
 
-        </Grid>
+
+</Grid>
+<Grid item xs={12} style={{backgroundColor:'orange'}} >
+     
+     
+
+   </Grid>
+
+
+
+   
+          
+         
+         <Grid item xs={12}>
         
 
-          
-          <Grid item xs={12} >
+          </Grid>
+      {/*<Grid item xs={6}>
             
-          <Box bgcolor="orange" width={1} height={20} />
+            <Typography>
+              ADDRESS
+              11841 Middle Street 
+              Mamelodi
+              Pretoria
+              0122
+              
+              
+
+            </Typography>
+              </Grid>*/}
+          <Grid item xs={12}>
          
+                        </Grid>
+         {/* <Grid item xs={6}>
+          
+            <Typography>
+              EMAIL
+              karabomolepo29@gmail.com
+              </Typography>
+            </Grid>*/}
+          <Grid item xs={12}>
+         
+          </Grid>
+          {/*<Grid item xs={6}>
+          
+            <Typography>
+              PHONE
+              0682072272/  0636788998
+              13852401653
+            </Typography>
+          </Grid>*/}
+          
+        
+
+       
+         
+          
+          
+          
+          
+        
+
+       
 
           
-          </Grid>
+         
          
       </Grid>
-    </div>
+    </Container>
   );
 }
