@@ -34,7 +34,7 @@ export default function App() {
   const classes=useStyles()
   return (
     <div>
-      <Grid container spacing={4} >
+      <Grid container spacing={1} >
 <Grid  container    justify="space-between">
 <Container style={{ backgroundColor: 'orange', alignItems:'center' ,justifyContent:'center' ,display:'flex'}} >
 <Grid item xs={5}  width='xs'>
