@@ -36,7 +36,7 @@ export default function App() {
   const classes=useStyles()
   return (
     <Container>
-      <Grid container spacing={3} >
+      <Grid container spacing={1} >
 <Grid  container    justify="space-between">
 <Container style={{ backgroundColor: 'orange', alignItems:'center' ,justifyContent:'center' ,display:'flex'}} >
 <Grid item xs={5}  width='xs'>
@@ -276,6 +276,7 @@ export default function App() {
          <ListItemText >
            HTML5
            <br></br>
+
          </ListItemText>
          <ListItemText>
            CSS
