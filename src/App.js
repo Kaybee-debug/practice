@@ -52,7 +52,7 @@ export default function App() {
             Front-End Developer
             </h1>
           
-            </Grid>
+            </Grid> 
             </Container>
           </Grid>
           <Grid item xs={12}  style={{}}display="flex" alignItems="center"  justifyContent="center" > 
