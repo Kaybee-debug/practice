@@ -90,7 +90,7 @@ export default function App() {
 <Rating name="size-medium" defaultValue={2} />
   <Rating name="size-large" defaultValue={2} size="large" /></div>*/}
           </Grid>
-          <Grid item xs={4} direction="row"style={{display:"flex" }}>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <Typography>NATIONAL SENIOR CERTIFICATE</Typography>
           </Grid>
@@ -103,7 +103,7 @@ export default function App() {
           
           </Grid>
 
-          <Grid item xs={4}direction="row"style={{display:"flex"}}>
+          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <div>
               <List>
@@ -114,7 +114,7 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={4} direction="row"style={{display:"flex" }}>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <Typography>
               NATIONAL CERTIFICATE (VOCATION IN INFORMATION TECHNOLOGY AND
@@ -125,18 +125,18 @@ export default function App() {
         
 
         <Grid item xs={4} className={classes.root} style={{}} > 
-        <Box display="flex" border={3} borderColor ="orange"width={1} height={25}   > 
+        <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center"  > 
           CONTACT ME
          </Box>
         </Grid>
         <Grid  item xs={8} direction="row" >
-          <Container width="xs" style={{ backgroundColor: 'orange' }}>
+          <div width="xs" style={{ backgroundColor: 'orange' }}>
             <h2>EXPERINCE</h2>
-          </Container>
+          </div>
           </Grid>
           
 
-        <Grid item xs={4} className={classes.root} style={{}}>
+        <Grid item xs={4} className={classes.root} style={{textAlign:'center'}}>
         <LocationOn style={{color:"orange"}}/ ><lebel>  ADDRESS
              <p >11841 Middle Street 
               Mamelodi East
@@ -144,7 +144,7 @@ export default function App() {
               0122</lebel>
            </Grid>
 
-        <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
+        <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <div>
               <List>
@@ -156,7 +156,7 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"center" }}>
+          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <Typography>BHEKA MANAGEMENT SERVICE</Typography>
           </Grid>
@@ -171,7 +171,7 @@ export default function App() {
             </lebel>
              </Grid>
 
-          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <div>
               <List>
@@ -200,7 +200,7 @@ export default function App() {
         </lebel>
              </Grid>
 
-          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <div>
               <List>
@@ -215,7 +215,7 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <Typography>
               YANGZHOU GUAMAI COMMUNICATION AND DEVELOPMENT
@@ -223,7 +223,7 @@ export default function App() {
           </Grid>
 
           <Grid item xs={4} className={classes.root} style={{textAlign:"center"}}> </Grid>
-          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <div>
               <List>
@@ -237,7 +237,7 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <Typography>YANGZHOU INNOVATIVE ENTERPRISES MANAGEMENT</Typography>
           </Grid>
@@ -247,7 +247,7 @@ export default function App() {
          </Box>
           </Grid>
 
-          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <div>
               <List>
@@ -262,7 +262,7 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <Typography>NENOBLE GROUP</Typography>
           </Grid>
