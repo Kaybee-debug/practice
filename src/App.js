@@ -273,36 +273,28 @@ export default function App() {
        <list >
          <ListItemText >
            HTML5
-           <br></br>
 
          </ListItemText>
          <ListItemText>
            CSS
-           <br></br>
          </ListItemText>
          <ListItemText>
            JAVASCRIPT
-           <br></br>
          </ListItemText>
          <ListItemText>
            JAVA
-           <br></br>
          </ListItemText>
          <ListItemText>
            MYSQL DATABASE
-           <br></br>
          </ListItemText>
          <ListItemText>
            PHYTHON
-           <br></br>
          </ListItemText>
          <ListItemText>
            VISUAL BASIC.NET(VB.NET)
-           <br></br>
          </ListItemText>
          <ListItemText>
            ADOBE PHOTOSHOP
-           <br></br>
          </ListItemText>
          <ListItemText>
            NETWOKING
