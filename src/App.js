@@ -66,12 +66,13 @@ export default function App() {
   </Grid>*/}
 
         <Grid  item xs={8}direction="row" >
-          <Container width="xs" style={{ backgroundColor: 'orange' }}>
+          
+          <div width="xs" style={{ backgroundColor: 'orange' }}>
            <h2> EDUCATION</h2>
-          </Container>
+          </div>
           </Grid>
-          <Grid item xs={4}  className={classes.root} style={{textAlign:"center"}}> </Grid>
-          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}} >
+          <Grid item xs={4}  className={classes.root} style={{}}> </Grid>
+          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" }} >
             
             <div>
               <List>
@@ -89,12 +90,12 @@ export default function App() {
 <Rating name="size-medium" defaultValue={2} />
   <Rating name="size-large" defaultValue={2} size="large" /></div>*/}
           </Grid>
-          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4} direction="row"style={{display:"flex" }}>
             
             <Typography>NATIONAL SENIOR CERTIFICATE</Typography>
           </Grid>
 
-          <Grid item xs={4} className={classes.root} style={{textAlign:"center"}}> 
+          <Grid item xs={4} className={classes.root} style={{}}> 
           <h2 >PROFILE</h2>
      <Typography>
        A self-motivated,creative ,ambitious and hardworking individual as well as having a strong ability to communuicate and work in a team effectively seek to apply for the position of intern front-end developer to enhance my technical skills to contribute to the company growth.
@@ -102,7 +103,7 @@ export default function App() {
           
           </Grid>
 
-          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4}direction="row"style={{display:"flex"}}>
             
             <div>
               <List>
@@ -113,7 +114,7 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4} direction="row"style={{display:"flex" }}>
             
             <Typography>
               NATIONAL CERTIFICATE (VOCATION IN INFORMATION TECHNOLOGY AND
@@ -123,8 +124,8 @@ export default function App() {
         </Grid>
         
 
-        <Grid item xs={4} className={classes.root} style={{textAlign:"center"}} > 
-        <Box display="flex" border={3} borderColor ="orange"width={1} height={25} alignItems="center"  justifyContent="center" > 
+        <Grid item xs={4} className={classes.root} style={{}} > 
+        <Box display="flex" border={3} borderColor ="orange"width={1} height={25}   > 
           CONTACT ME
          </Box>
         </Grid>
@@ -135,7 +136,7 @@ export default function App() {
           </Grid>
           
 
-        <Grid item xs={4} className={classes.root} style={{textAlign:"center"}}>
+        <Grid item xs={4} className={classes.root} style={{}}>
         <LocationOn style={{color:"orange"}}/ ><lebel>  ADDRESS
              <p >11841 Middle Street 
               Mamelodi East
@@ -143,7 +144,7 @@ export default function App() {
               0122</lebel>
            </Grid>
 
-        <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" ,alignItems:"center"}}>
+        <Grid item xs={4} direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
             <div>
               <List>
@@ -155,7 +156,7 @@ export default function App() {
               </List>
             </div>
           </Grid>
-          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"center" ,alignItems:"center"}}>
+          <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"center" }}>
             
             <Typography>BHEKA MANAGEMENT SERVICE</Typography>
           </Grid>
