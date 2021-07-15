@@ -55,7 +55,13 @@ export default function App() {
             </Grid>
             </Container>
           </Grid>
+          <Grid item xs={12}  style={{}}display="flex" alignItems="center"  justifyContent="center" > 
+          <h2  >PROFILE</h2>
+     <p>
+       A self-motivated,creative ,ambitious and hardworking individual as well as having a strong ability to communuicate and work in a team effectively seek to apply for the position of intern front-end developer to enhance my technical skills to contribute to the company growth.
+     </p>
           
+          </Grid>
       
 
         <Grid  item xs={8}direction="row" >
@@ -89,14 +95,9 @@ export default function App() {
             
             NATIONAL SENIOR CERTIFICATE
           </Grid>
-
-          <Grid item xs={4} className={classes.root} style={{}}> 
-          <h2 >PROFILE</h2>
-     <p>
-       A self-motivated,creative ,ambitious and hardworking individual as well as having a strong ability to communuicate and work in a team effectively seek to apply for the position of intern front-end developer to enhance my technical skills to contribute to the company growth.
-     </p>
+          <Grid item xs={4}  className={classes.root} style={{}}>
+            </Grid>
           
-          </Grid>
 
           <Grid item xs={4}direction="row"style={{display:"flex",justifyContent:"flex-start" }}>
             
